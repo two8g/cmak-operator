@@ -1,0 +1,21 @@
+name: Index Helm charts
+on:
+  push:
+    paths:
+      - '*.tgz'    
+    branches:
+      - 'gh-pages'
+jobs:
+  helm_index:
+    name: Helm index
+    runs-on: ubuntu-18.04
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+      - run: ls -la
+      - uses: azure/setup-helm@v1
+      - name: helm indx
+        run: helm index .
+      - run: |
+          ls -la
+          cat index.yaml
