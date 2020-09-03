@@ -1,8 +1,8 @@
 name: Index Helm charts
 on:
   push:
-    paths:
-      - '*.tgz'    
+    # paths:
+    #   - '*.tgz'    
     branches:
       - 'gh-pages'
 jobs:
