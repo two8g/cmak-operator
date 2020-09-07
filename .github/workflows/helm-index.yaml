@@ -12,12 +12,11 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v2
-      - run: |
-          ls -la
-          cat index.yaml
       - uses: azure/setup-helm@v1
       - name: helm index
         run: helm repo index .
-      - run: |
-          ls -la
-          cat index.yaml
+      - name: push
+        uses: actions-x/commit@v2
+        with:
+          files: index.yaml
+          force: true
