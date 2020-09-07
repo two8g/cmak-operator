@@ -1,8 +1,8 @@
 name: Index Helm charts
 on:
   push:
-    # paths:
-    #   - '*.tgz'    
+    paths:
+      - '*.tgz'    
     branches:
       - 'gh-pages'
 jobs:
@@ -13,10 +13,11 @@ jobs:
       - name: checkout
         uses: actions/checkout@v2
       - uses: azure/setup-helm@v1
-      - name: helm index
+      - name: generate index
         run: helm repo index .
-      - name: push
+      - name: publish index
         uses: actions-x/commit@v2
         with:
           files: index.yaml
+          message: chore: update helm repository index
           force: true
