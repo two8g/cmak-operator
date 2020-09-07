@@ -2,7 +2,8 @@ name: Index Helm charts
 on:
   push:
     paths:
-      - '*.tgz'    
+      - '*.tgz'
+      - '.github/workflows/*.yaml'
     branches:
       - 'gh-pages'
 jobs:
