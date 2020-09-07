@@ -19,5 +19,5 @@ jobs:
         uses: actions-x/commit@v2
         with:
           files: index.yaml
-          message: chore: update helm repository index
+          message: 'chore: update helm repository index'
           force: true
