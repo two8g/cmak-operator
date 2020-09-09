@@ -3,16 +3,6 @@ entries:
   cmak-operator:
   - apiVersion: v2
     appVersion: 3.0.0.5
-    created: "2020-09-09T18:52:15.638228333Z"
-    description: CMAK operator for K8S.
-    digest: 1a5c2101662fcd7d201f6aedf53f23dccc52a30769da6305a6015566387d92c0
-    name: cmak-operator
-    type: application
-    urls:
-    - cmak-operator-0.3.1.tgz
-    version: 0.3.1
-  - apiVersion: v2
-    appVersion: 3.0.0.5
     created: "2020-09-09T18:52:15.637708448Z"
     description: CMAK operator for K8S.
     digest: 06182e4be3934e964ed2e6b4ecdb7862bae6b48780e8c877c231a64178701411
