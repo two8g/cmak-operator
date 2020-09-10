@@ -4,7 +4,7 @@ entries:
   - apiVersion: v2
     appVersion: 3.0.0.5
     created: "2020-09-10T08:55:07.432903934Z"
-    description: Manage and vizualize Kafka clusters with CMAK (ex. Kafka Manager).
+    description: Manage and vizualize Kafka clusters with CMAK (previously Kafka Manager).
     digest: 97f4b725dfa4e945366486e173216a1d5824f1158a5c0260dc028fc5922650bd
     home: https://github.com/eshepelyuk/cmak-operator
     keywords:
@@ -27,7 +27,7 @@ entries:
   - apiVersion: v2
     appVersion: 3.0.0.5
     created: "2020-09-09T05:38:25.7372652+03:00"
-    description: Manage and vizualize Kafka clusters with CMAK (ex. Kafka Manager).
+    description: Manage and vizualize Kafka clusters with CMAK (previously Kafka Manager).
     digest: 5807f8b75468a49ad8f84f67e3d53c426b63faf2781d282a31676a16cf9aaafb
     home: https://github.com/eshepelyuk/cmak-operator
     keywords:
@@ -36,6 +36,9 @@ entries:
     - kafka-manager
     - kafka
     - kubernetes
+    - ui
+    - monitoring
+    - streaming
     name: cmak-operator
     sources:
     - https://github.com/yahoo/CMAK
@@ -47,7 +50,7 @@ entries:
   - apiVersion: v2
     appVersion: 3.0.0.5
     created: "2020-09-02T05:38:25.7362889+03:00"
-    description: Manage and vizualize Kafka clusters with CMAK (ex. Kafka Manager).
+    description: Manage and vizualize Kafka clusters with CMAK (previously Kafka Manager).
     digest: 2c9a93e6e9f7f16b704933882e5231e4320b6a68bf2ed474db119fa3e3f45eb6
     home: https://github.com/eshepelyuk/cmak-operator
     keywords:
@@ -56,6 +59,9 @@ entries:
     - kafka-manager
     - kafka
     - kubernetes
+    - ui
+    - monitoring
+    - streaming
     name: cmak-operator
     sources:
     - https://github.com/yahoo/CMAK
@@ -67,7 +73,7 @@ entries:
   - apiVersion: v2
     appVersion: 3.0.0.5
     created: "2020-09-01T05:38:25.7353127+03:00"
-    description: Manage and vizualize Kafka clusters with CMAK (ex. Kafka Manager).
+    description: Manage and vizualize Kafka clusters with CMAK (previously Kafka Manager).
     digest: 81d9327ff5b821e1bab3783a0ae9776c8540a922d9380ea5c3bef62df7b4b624
     home: https://github.com/eshepelyuk/cmak-operator
     keywords:
@@ -76,6 +82,9 @@ entries:
     - kafka-manager
     - kafka
     - kubernetes
+    - ui
+    - monitoring
+    - streaming
     name: cmak-operator
     sources:
     - https://github.com/yahoo/CMAK
