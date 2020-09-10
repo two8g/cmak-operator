@@ -3,32 +3,62 @@ entries:
   cmak-operator:
   - apiVersion: v2
     appVersion: 3.0.0.5
-    created: "2020-09-09T18:52:15.637708448Z"
-    description: CMAK operator for K8S.
-    digest: 06182e4be3934e964ed2e6b4ecdb7862bae6b48780e8c877c231a64178701411
+    created: "2020-09-10T05:38:25.7372652+03:00"
+    description: Manage and vizualize Kafka clusters with CMAK (ex. Kafka Manager).
+    digest: 5807f8b75468a49ad8f84f67e3d53c426b63faf2781d282a31676a16cf9aaafb
+    home: https://github.com/eshepelyuk/cmak-operator
+    keywords:
+    - cmak
+    - operator
+    - kafka-manager
+    - kafka
+    - kubernetes
     name: cmak-operator
+    sources:
+    - https://github.com/yahoo/CMAK
+    - https://github.com/hleb-albau/kafka-manager-docker
     type: application
     urls:
     - cmak-operator-0.3.0.tgz
     version: 0.3.0
   - apiVersion: v2
     appVersion: 3.0.0.5
-    created: "2020-09-09T18:52:15.637197463Z"
-    description: CMAK operator for K8S.
-    digest: 7c919565ba64c6866152038ab3e04527f9932484864c13ac1fa1f2dd0a86a000
+    created: "2020-09-10T05:38:25.7362889+03:00"
+    description: Manage and vizualize Kafka clusters with CMAK (ex. Kafka Manager).
+    digest: 2c9a93e6e9f7f16b704933882e5231e4320b6a68bf2ed474db119fa3e3f45eb6
+    home: https://github.com/eshepelyuk/cmak-operator
+    keywords:
+    - cmak
+    - operator
+    - kafka-manager
+    - kafka
+    - kubernetes
     name: cmak-operator
+    sources:
+    - https://github.com/yahoo/CMAK
+    - https://github.com/hleb-albau/kafka-manager-docker
     type: application
     urls:
     - cmak-operator-0.2.1.tgz
     version: 0.2.1
   - apiVersion: v2
     appVersion: 3.0.0.5
-    created: "2020-09-09T18:52:15.636730876Z"
-    description: CMAK operator for K8S.
-    digest: f07786f19c72ae55751159922109776c9966291259a20c167a358e4ec50abf2d
+    created: "2020-09-10T05:38:25.7353127+03:00"
+    description: Manage and vizualize Kafka clusters with CMAK (ex. Kafka Manager).
+    digest: 81d9327ff5b821e1bab3783a0ae9776c8540a922d9380ea5c3bef62df7b4b624
+    home: https://github.com/eshepelyuk/cmak-operator
+    keywords:
+    - cmak
+    - operator
+    - kafka-manager
+    - kafka
+    - kubernetes
     name: cmak-operator
+    sources:
+    - https://github.com/yahoo/CMAK
+    - https://github.com/hleb-albau/kafka-manager-docker
     type: application
     urls:
     - cmak-operator-0.2.0.tgz
     version: 0.2.0
-generated: "2020-09-09T18:52:15.635676206Z"
+generated: "2020-09-10T05:38:25.7284785+03:00"
