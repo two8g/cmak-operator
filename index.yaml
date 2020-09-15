@@ -3,9 +3,9 @@ entries:
   cmak-operator:
   - apiVersion: v2
     appVersion: 3.0.0.5
-    created: "2020-09-10T08:55:07.432903934Z"
+    created: "2020-09-10T12:39:50.2947324+03:00"
     description: Manage and vizualize Kafka clusters with CMAK (previously Kafka Manager).
-    digest: 97f4b725dfa4e945366486e173216a1d5824f1158a5c0260dc028fc5922650bd
+    digest: 4403cd02042e08925ef66332d11bb0d32d1b12a059919763e06ba7a8cf2b2fbc
     home: https://github.com/eshepelyuk/cmak-operator
     keywords:
     - cmak
@@ -26,9 +26,9 @@ entries:
     version: 0.4.0
   - apiVersion: v2
     appVersion: 3.0.0.5
-    created: "2020-09-09T05:38:25.7372652+03:00"
+    created: "2020-09-09T12:39:50.2907359+03:00"
     description: Manage and vizualize Kafka clusters with CMAK (previously Kafka Manager).
-    digest: 5807f8b75468a49ad8f84f67e3d53c426b63faf2781d282a31676a16cf9aaafb
+    digest: 76b45f98dc40d42d93118bf68f3319eb2713679558190afa3faf3122cc57ccd1
     home: https://github.com/eshepelyuk/cmak-operator
     keywords:
     - cmak
@@ -49,9 +49,9 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 3.0.0.5
-    created: "2020-09-02T05:38:25.7362889+03:00"
+    created: "2020-09-02T12:39:50.2897358+03:00"
     description: Manage and vizualize Kafka clusters with CMAK (previously Kafka Manager).
-    digest: 2c9a93e6e9f7f16b704933882e5231e4320b6a68bf2ed474db119fa3e3f45eb6
+    digest: 399ae07eac25c2df7ac4738fe8972e8e83bef05f3ce835c31488e56bd4fe13c7
     home: https://github.com/eshepelyuk/cmak-operator
     keywords:
     - cmak
@@ -72,9 +72,9 @@ entries:
     version: 0.2.1
   - apiVersion: v2
     appVersion: 3.0.0.5
-    created: "2020-09-01T05:38:25.7353127+03:00"
+    created: "2020-09-01T12:39:50.2877386+03:00"
     description: Manage and vizualize Kafka clusters with CMAK (previously Kafka Manager).
-    digest: 81d9327ff5b821e1bab3783a0ae9776c8540a922d9380ea5c3bef62df7b4b624
+    digest: 3c7884ba98f146e7803e8e11a76b45ab77e3bc38963bec074fdfd116189efe2a
     home: https://github.com/eshepelyuk/cmak-operator
     keywords:
     - cmak
@@ -93,4 +93,4 @@ entries:
     urls:
     - cmak-operator-0.2.0.tgz
     version: 0.2.0
-generated: "2020-09-10T08:55:07.432010034Z"
+generated: "2020-09-15T12:39:50.2825353+03:00"
